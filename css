@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+ .link-header{
+    background-color: aqua;
+}
+h1  {
+    justify-content: center;
+    display: flex;
+    color: greenyellow;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+}
+
+ol {
+    border: 2px dotted green;
+    opacity: 0.5;
+}
+
+.info  {
+    border: 2px dotted green;
+    opacity: 0.5;
+}
+ol:hover {
+    border: 2px dotted green;
+    opacity: 1;
+}
+
+.info:hover  {
+    border: 2px dotted green;
+    opacity: 1;
+}
+
+ .link-header:hover{
+    background-color: aqua;
+    transition: 4s linear;
+    margin: 20px;
+    transform: scale(3);
+}
+
+
